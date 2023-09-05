@@ -31,9 +31,9 @@
 
 .footer {
     position: absolute;
-    bottom: 0; /* Coloca o footer no final da página */
-    width: 100%; /* Garante que o footer ocupe toda a largura */
-    text-align: center; /* Centraliza o texto no footer */
-    /* background-color: #010101; Define a cor de fundo do footer */
-    padding: 10px 0; /* Adicione um espaçamento interno ao footer */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box; /* Adicione esta propriedade para incluir o padding no cálculo da largura */
 }
