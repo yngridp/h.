@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lora', serif;
+    /* font-family: "Amatic SC", cursive; */
+    background-color: #010101;
+    color: white;
+    background-image: url(../images/unnamed.jpg);
+    margin-bottom: 20px;
+    margin: 0; /* Adicione essa linha para remover as margens padrão do corpo */
+    padding: 0; /* Adicione essa linha para remover o preenchimento padrão do corpo */
+}
+
+.background {
+    /* background: url(../images/unnamed.jpg) no-repeat center center fixed; */
+    /* background-size: cover; */
+    height: 100vh;
+    /* overflow: hidden; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.selecao-audios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Adicione um preenchimento interno para dispositivos maiores */
+    
+}
+.audios{
+    margin-right: 3%;
+}
+.audio-element {
+    opacity: 0.8;
+    
+}
+
+.gif {
+    max-width: 100%; /* Garante que o GIF não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção original do GIF */
+    width: 100%; /* Ajusta o GIF para ocupar 100% da largura do contêiner */
+    max-height: 300px; /* Define uma altura máxima para o GIF */
+}
