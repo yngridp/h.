@@ -12,7 +12,9 @@
     justify-content: center; /* Centraliza horizontalmente */
     min-height: 100vh; /* Torna a página pelo menos 100% da altura da viewport */
     position: relative;
+    overflow: hidden;
 }
+
 
 .inicio {
     text-align: center;
